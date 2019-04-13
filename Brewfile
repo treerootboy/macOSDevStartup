@@ -3,10 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/nginx"
-tap "homebrew/php"
-tap "homebrew/services"
-tap "homebrew/versions"
 
 # tools
 brew "zsh"
