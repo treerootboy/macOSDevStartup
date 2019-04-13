@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "heroku/brew"
 
 # tools
 brew "zsh"
@@ -48,7 +49,7 @@ brew "hugo" # golang 博客工具
 cask "1password" # 密码管理
 cask "beyond-compare" # 文本比较工具，git合并
 cask "charles" # http抓包
-cask "google-drive" # google 云盘
+cask "google-drive-file-stream" # google 云盘
 cask "istat-menus" # macos 指标监控
 cask "navicat-for-sqlite" # sqlite client
 cask "wechat" # 微信
