@@ -1,8 +1,6 @@
 #!/bin/bash
-cd /tmp
-curl -sL https://github.com/treerootboy/macOSDevStartup/archive/master.zip -o macOSDevStartup.zip
-unzip macOSDevStartup.zip
-cd macOSDevStartup-master
+curl -sL https://github.com/treerootboy/macOSDevStartup/archive/master.zip -o /tmp/macOSDevStartup.zip
+unzip -o macOSDevStartup.zip -d /tmp/
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-cat npmfile | xargs -I{} npm i -g {}
-cat composer | xargs -I{} composer require -g {}
+cat /tmp/macOSDevStartup-master/npmfile | xargs -I{} npm i -g {}
+cat /tmp/macOSDevStartup-master/composer | xargs -I{} composer require -g {}
