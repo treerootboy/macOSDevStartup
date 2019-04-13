@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp
-curl -s https://github.com/treerootboy/macOSDevStartup/archive/master.zip -o macOSDevStartup.zip
+curl -sL https://github.com/treerootboy/macOSDevStartup/archive/master.zip -o macOSDevStartup.zip
 unzip macOSDevStartup.zip
 cd macOSDevStartup-master
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
