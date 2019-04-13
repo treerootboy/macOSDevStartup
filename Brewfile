@@ -29,6 +29,7 @@ brew "composer"
 
 # devlope service
 # ELK 套件
+cask "java8"
 brew "elasticsearch", restart_service: true
 brew "kibana", restart_service: true
 brew "logstash", restart_service: true
