@@ -46,17 +46,18 @@ brew "hugo" # golang 博客工具
 
 
 # software
-cask "1password" # 密码管理
 cask "beyond-compare" # 文本比较工具，git合并
 cask "charles" # http抓包
 cask "google-drive-file-stream" # google 云盘
 cask "istat-menus" # macos 指标监控
 cask "navicat-for-sqlite" # sqlite client
-cask "wechat" # 微信
-cask "wxwork" # 企业微信
 cask "sequel-pro" # mysql client
 cask "sourcetree" # git client
 cask "teamviewer" # 远程协助
 cask "the-unarchiver" # 解压缩
 cask "wireshark" # tcp抓包
-cask "xmind" # 思维导图
+
+mas "1Password", id: 1333542190 # 密码管理
+mas "企业微信", id: 1189898970
+mas "微信", id: 836500024
+mas "XMind:Zen", id: 1327661892
