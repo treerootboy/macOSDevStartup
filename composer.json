@@ -1,0 +1,12 @@
+{
+    "require": {
+        "laravel/installer": "^2.0",
+        "laravel/lumen-installer": "^1.0",
+        "laravel/valet": "^2.1",
+        "phpunit/phpunit": "^5.2",
+        "slince/composer-registry-manager": "^1.2",
+        "psy/psysh": "@stable",
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "squizlabs/php_codesniffer": "^3.4"
+    }
+}
