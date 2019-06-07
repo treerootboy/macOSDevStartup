@@ -6,5 +6,5 @@ macOS 开发环境初始化脚本。利用brew, npm, composer等初始化开发�
 # 启用 touchid sudo 验证
 sudo gsed -i '1iauth sufficient pam_tid.so' /etc/pam.d/sudo
 
-curl -fsSL https://raw.githubusercontent.com/treerootboy/macOSDevStartup/master/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/treerootboy/macOSDevStartup/master/install.sh | bash
 ```
