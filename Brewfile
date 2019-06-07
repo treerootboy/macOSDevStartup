@@ -56,6 +56,7 @@ cask "sourcetree" # git client
 cask "teamviewer" # 远程协助
 cask "the-unarchiver" # 解压缩
 cask "wireshark" # tcp抓包
+cask "shadowsocksx-ng" # SSR客户端
 
 mas "1Password", id: 1333542190 # 密码管理
 mas "企业微信", id: 1189898970
