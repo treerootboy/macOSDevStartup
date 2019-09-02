@@ -8,3 +8,16 @@ sudo gsed -i '1iauth sufficient pam_tid.so' /etc/pam.d/sudo
 
 curl -fsSL https://raw.githubusercontent.com/treerootboy/macOSDevStartup/master/install.sh | bash
 ```
+
+## TODO
+### 基础环境
+[ ] zsh + 主題
+[ ] PHP
+[ ] Mysql
+[ ] Nginx
+
+
+### Laravel 环境
+
+
+### reactjs vue 环境
