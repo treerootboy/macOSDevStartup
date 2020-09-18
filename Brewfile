@@ -1,26 +1,26 @@
 # tap brew source
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "heroku/brew"
+# tap "homebrew/bundle"
+# tap "homebrew/cask"
+# tap "homebrew/cask-versions"
+# tap "homebrew/core"
+# tap "heroku/brew"
 
 # tools
-brew "zsh"
-brew "bash-completion"
-brew "awk"
-brew "gcc"
+# brew "zsh"
+# brew "bash-completion"
+# brew "awk"
+# brew "gcc"
 brew "git-flow"
-brew "graphicsmagick"
+# brew "graphicsmagick"
 brew "httpie"
 brew "jq"
-brew "pidof"
-brew "telnet"
-brew "wget"
+# brew "pidof"
+# brew "telnet"
+# brew "wget"
 
 # language
 brew "python"
-brew "python@2"
+# brew "python@2"
 brew "go"
 brew "node"
 brew "luajit"
@@ -28,21 +28,21 @@ brew "php", restart_service: true
 brew "phplint"
 brew "composer"
 
-# devlope service
-# ELK 套件
-cask "java8"
-brew "elasticsearch", restart_service: true
-brew "kibana", restart_service: true
-brew "logstash", restart_service: true
-brew "metricbeat"
-brew "filebeat" 
+# # devlope service
+# # ELK 套件
+# cask "java8"
+# brew "elasticsearch", restart_service: true
+# brew "kibana", restart_service: true
+# brew "logstash", restart_service: true
+# brew "metricbeat"
+# brew "filebeat" 
 
-brew "mysql", restart_service: true
-brew "nginx", restart_service: true
-brew "redis", restart_service: true
+# brew "mysql", restart_service: true
+# brew "nginx", restart_service: true
+# brew "redis", restart_service: true
 
-brew "heroku" # vps
-brew "hugo" # golang 博客工具
+# brew "heroku" # vps
+# brew "hugo" # golang 博客工具
 
 
 # software
@@ -56,7 +56,8 @@ cask "sourcetree" # git client
 cask "teamviewer" # 远程协助
 cask "the-unarchiver" # 解压缩
 cask "wireshark" # tcp抓包
-cask "shadowsocksx-ng" # SSR客户端
+# cask "shadowsocksx-ng" # SSR客户端
+cask "v2rayu" # v2ray客户端
 
 mas "1Password", id: 1333542190 # 密码管理
 mas "企业微信", id: 1189898970
