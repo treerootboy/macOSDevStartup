@@ -22,3 +22,9 @@ svgexport
 umi
 webpagetest
 workbox-cli
+@wundergraph/wunderctl
+corepack
+nextjs
+pnpm
+wundergraph
+yarn
