@@ -7,6 +7,7 @@ brew bundle --file=Brewfile
 cat npmfile | xargs -I{} npm i -g {}
 cp composer.json ~/.composer/composer.json
 composer global install
+pip install -g -r pip.requirements
 # bash packWebApp.sh
 cd
 rm -rf /tmp/macOSDevStartup-master
