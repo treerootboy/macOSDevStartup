@@ -145,7 +145,6 @@ brew "minio/stable/mc"
 brew "minio/stable/minio"
 brew "oven-sh/bun/bun"
 brew "turbot/tap/steampipe"
-brew "ubuntu/microk8s/microk8s"
 cask "1password"
 cask "1password-cli"
 cask "adoptopenjdk12"
@@ -162,7 +161,6 @@ cask "hammerspoon"
 cask "istat-menus"
 cask "masscode"
 cask "motrix"
-cask "multipass"
 cask "navicat-for-sqlite"
 cask "ngrok"
 cask "qq"
@@ -170,9 +168,6 @@ cask "sequel-pro"
 cask "sourcetree"
 cask "teamviewer"
 cask "the-unarchiver"
-cask "v2rayu"
-cask "vagrant"
-cask "vmware-fusion"
 cask "wireshark"
 mas "Bitwarden", id: 1352778147
 mas "Bluetooth Inspector", id: 1509085044
@@ -184,7 +179,6 @@ mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
-mas "Notability", id: 360593530
 mas "Notability", id: 736189492
 mas "Paste", id: 967805235
 mas "Playgrounds", id: 1496833156
